@@ -1,0 +1,57 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: "hidden";
+    background: #0F192F;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    background: red;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.flex-one {
+    flex: 1;
+    display: flex;
+}
+
+.left {
+    background: green;
+    
+}
+
+.centre {
+    background: blue;
+
+}
+
+.right {
+    background: black;
+
+}
+
+.logo-top-left {
+    height: 100%;
+    width: 100px;
+    background: #E99F48;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+.left-items {
+    width: 250px;
+    background: purple;
+    height: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
